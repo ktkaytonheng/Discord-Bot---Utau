@@ -1,8 +1,10 @@
 import discord
 from discord.ext import commands
-# import music
-# from keep_alive import keep_alive
+
+from keep_alive import keep_alive
+
 import os
+# import music
 
 bot_token = os.environ['bot_token']
 
@@ -17,5 +19,5 @@ client = commands.Bot(command_prefix="-",
 
 print("Starting bot...")
 
-# keep_alive()
+keep_alive()
 client.run(bot_token)
