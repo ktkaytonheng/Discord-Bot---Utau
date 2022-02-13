@@ -1,10 +1,12 @@
 import discord
 from discord.ext import commands
 
-from keep_alive import keep_alive
+from keep_alive/keep_alive import keep_alive
+import bot_functions/music
+import bot_functions/chat
 
 import os
-import music
+
 
 bot_token = os.environ['bot_token']
 
