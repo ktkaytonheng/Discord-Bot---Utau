@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+import bot_functions/music_functions
 
 class Commands(commands.Cogs):
   
